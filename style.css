@@ -1,0 +1,108 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.images{
+
+    width: auto;
+    height: 200px;
+    border-radius: 7.5px;
+    
+}
+ 
+.sliders {
+
+  max-width: 55%;
+  
+  
+    
+}
+.slider1 {
+
+    display: flex;
+    gap: 7px;
+    position: absolute;
+    top: 20%;
+    left: -100px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.slider2{
+    display: flex;
+    gap: 7px;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    flex-wrap: wrap;
+
+
+}
+
+
+.header1{
+
+    
+    height: 70px;
+    left: 500px;
+    background: linear-gradient(to right, rgba(255,255,255) 33%, rgba(221,221,221) 33% 50%, rgba(255,255,255) 50% 52%, rgba(221,221,221) 52% 90%,rgba(255,255,255) 90%);
+    
+    
+}
+
+
+.footer1
+{
+    background-color: rgba(221,221,221);
+    height: 80px;
+    margin-top: 565px;
+    border-left: 500px solid white;
+    border-right: 150px solid white;
+    
+}
+
+.right{
+
+    position: absolute;
+    top: 59%;
+    left: 59.2%;
+    border-style: solid;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: rgb(205, 200, 200);
+    background-image: url(assets/arrow-gray-right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.left{
+
+    position: absolute;
+    top: 50%;
+    left: 59.2%;
+    width: 60px;
+    height: 60px;
+    border-style: solid;
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgb(205, 200, 200);
+    background-image: url(assets/arrow-gray-left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.right:hover {
+    background-image: url("assets/arrow-blue-right.png");
+}
+.left:hover {
+    background-image: url("assets/arrow-blue-left.png");
+}
